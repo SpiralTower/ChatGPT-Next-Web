@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "默认模型启用 Openai gpt-3.5-turbo-0125 ,下方可以切换 Google gemini-pro ,其中 gemini-pro-vision 模型需要一张图片开启并只支持一轮聊天。gpt4 请前往 chat4.spiraltower.cn ,BingAI Copilot (gpt4) 请前往 bingai.spiraltower.cn 。",
+    BotHello: "默认模型启用 Openai gpt-3.5-turbo-0125 ,gpt4 请前往 chat4.spiraltower.cn ,BingAI Copilot (gpt4) 请前往 bingai.spiraltower.cn 。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
