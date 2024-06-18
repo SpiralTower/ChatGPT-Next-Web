@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "默认模型启用 OpenAI gpt-4o ,该模型支持图片识别与联网搜索。gpt-3.5 请前往 chat.spiraltower.cn ,BingAI Copilot (gpt-4) 请前往 bingai.spiraltower.cn 。如果密钥余额耗尽，可前往 aiproxy.io 充值并在设置中填写密钥。",
+    BotHello: "默认模型启用 OpenAI gpt-4o ,该模型支持图片识别。gpt-3.5 请前往 chat.spiraltower.cn ,BingAI Copilot (gpt-4) 请前往 bingai.spiraltower.cn 。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
